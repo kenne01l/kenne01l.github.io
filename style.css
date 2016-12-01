@@ -1,8 +1,36 @@
 p {
-  color: red;
+  color: black;
 }
 
 .resumeHeader {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: darkgrey;
+}
+
+.resumeBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightblue;
+  padding-top: 5vh;
+}
+
+#experience {
+  font-size: 2em;
+}
+
+#Skills {
+  font-size: 2em;
+}
+
+html {
+  background-color: lightblue;
+}
+h1 {
+  font-size: 4em;
+  padding: 0;
 }
